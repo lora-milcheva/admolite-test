@@ -1,0 +1,80 @@
+[
+  {
+    "name": "gallery-01.jpg",
+    "title": "My first photo",
+    "text": "Some card text",
+    "place": "Spain"
+  },
+  {
+    "name": "gallery-02.jpg",
+    "title": "My second photo",
+    "text": "Some card text",
+    "place": "Bulgaria"
+  },
+  {
+    "name": "gallery-03.jpg",
+    "title": "My third photo",
+    "text": "Some card text",
+    "place": "China"
+  },
+  {
+    "name": "gallery-04.jpg",
+    "title": "Four",
+    "text": "Some card text",
+    "place": "China"
+  },
+  {
+    "name": "gallery-05.jpg",
+    "title": "Five",
+    "text": "Some card text",
+    "place": "China"
+  },
+  {
+    "name": "gallery-06.jpg",
+    "title": "Six",
+    "text": "Some card text",
+    "place": "China"
+  },
+  {
+    "name": "gallery-07.jpg",
+    "title": "Six",
+    "text": "Some card text",
+    "place": "China"
+  },
+  {
+    "name": "gallery-08.jpg",
+    "title": "Six",
+    "text": "Some card text",
+    "place": "China"
+  },
+  {
+    "name": "gallery-09.jpg",
+    "title": "Six",
+    "text": "Some card text",
+    "place": "China"
+  },
+  {
+    "name": "gallery-10.jpg",
+    "title": "Six",
+    "text": "Some card text",
+    "place": "China"
+  },
+  {
+    "name": "gallery-11.jpg",
+    "title": "Six",
+    "text": "Some card text",
+    "place": "China"
+  },
+  {
+    "name": "gallery-12.jpg",
+    "title": "Six",
+    "text": "Some card text",
+    "place": "China"
+  },
+  {
+    "name": "gallery-13.jpg",
+    "title": "Six",
+    "text": "Some card text",
+    "place": "China"
+  }
+]

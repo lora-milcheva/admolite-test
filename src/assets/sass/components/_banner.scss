@@ -1,0 +1,36 @@
+.banner {
+	height: 80vh;
+	overflow: hidden;
+	position: relative;
+
+	@include respond('phone') {
+		height: 40vh;
+	}
+
+	&__heading {
+		opacity: 1;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		transform: translate(-50%, -200%);
+		animation: 1s ease-out 0s 1 moveInLeftBannerHeadline;
+
+		color: $color-white;
+
+		z-index: 2;
+
+		@include respond('phone') {
+			font-size: 2rem;
+			transform: translate(-10%, -200%);
+			animation: 1s ease-out 0s 1 moveInLeftBannerHeadlinePhone;
+		}
+	}
+
+	&__image {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 1;
+	}
+}

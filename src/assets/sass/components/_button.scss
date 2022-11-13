@@ -1,0 +1,63 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    padding: 1rem 2rem 1rem 2rem;
+    display: inline-block;
+    border-radius: $border-radius-small;
+    transition: all .2s;
+    position: relative;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled,
+  &:disabled:hover,
+  &:disabled:active {
+    background-color: $color-grey-light;
+    color: #292929;
+    cursor: not-allowed;
+    outline: none;
+  }
+
+  &--default {
+    background-color: $color-grey-light;
+
+    &:hover {
+      background-color: darken($color-grey-light, 10%);
+    }
+  }
+
+  &--primary {
+    color: $color-white;
+    background-color: $color-primary;
+
+    &:hover {
+      background-color: darken($color-primary, 10%);
+    }
+  }
+
+  &.xs {
+    padding: .5rem .8rem;
+    font-size: 1rem;
+    border-radius: $border-radius-tiny;
+  }
+
+  &.sm {
+    padding: .8rem 1.2rem;
+    font-size: 1.3rem;
+  }
+
+  &.lg {
+    padding: 2.5rem 5rem;
+  }
+}
+
+

@@ -1,0 +1,24 @@
+.header {
+	width: 100%;
+	height: $header-height;
+	z-index: 1000;
+
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	justify-content: end;
+	align-items: center;
+
+	border-bottom: 1px solid rgba($color-grey-light-bg, .5);
+	background-color: $color-black;
+
+
+	&__brand {
+		margin-left: 3rem;
+		text-transform: uppercase;
+		letter-spacing: $letter-spacing-default;
+		font-weight: 600;
+		background-color: $color-black;
+		padding: 0 2rem;
+		color: $color-white
+	}
+}

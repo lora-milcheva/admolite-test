@@ -1,0 +1,44 @@
+.card {
+	padding: 2rem 1rem;
+	border-bottom: 1px solid rgba($color-white, .05);
+	transition: $transition-main;
+
+	@include respond("phone") {
+	}
+
+	&__image {
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: 35rem;
+			object-fit: cover;
+			transition: $transition-main;
+
+			&:hover {
+				cursor: pointer;
+				transform: translateY(-.9rem) scale(1.05);
+			}
+		}
+	}
+
+	&__body {
+	}
+
+	&__title {
+		color: $color-primary;
+	}
+
+	&__text {
+		font-size: $font-size-sm;
+	}
+
+	&__place {
+	}
+
+	&:hover {
+		color: $color-secondary;
+	}
+
+
+}
